@@ -8,4 +8,12 @@ Test-Driven Development starts with designing and developing tests for every sma
 
 In TDD approach, first, the test is developed which specifies and validates what the code will do.
 
-In the normal Software Testing process, we first generate the code and then test. Tests might fail since tests are developed even before the development. In order to pass the test, the development team has to develop and refactors the code. Refactoring a code means changing some code without affecting its behavior.
+In the normal Software Testing process, we first generate the code and then test. Tests might fail since tests are developed even before the development. 
+In order to pass the test, the development team has to develop and refactors the code. Refactoring a code means changing some code without affecting its behavior.
+
+In the normal Software Testing process, we first generate the code and then test. 
+Tests might fail since tests are developed even before the development. In order to pass the test, the development team has to develop and refactors the code. Refactoring a code means changing some code without affecting its behavior.
+
+The simple concept of TDD is to write and correct the failed tests before writing new code (before development). This helps to avoid duplication of code as we write a small amount of code at a time in order to pass tests. (Tests are nothing but requirement conditions that we need to test to fulfill them).
+
+Test-Driven development is a process of developing and running automated test before actual development of the application. Hence, TDD sometimes also called as Test First Development.
