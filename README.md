@@ -23,3 +23,7 @@ Once done, repeat the same thing again. . . .
 - The developer can accomplish this through use cases and user stories to cover the requirements and exception conditions, and can   write the test in whatever testing framework is appropriate to the software environment. 
 - It could be a modified version of an existing test.
 - This is a differentiating feature of test-driven development versus writing unit tests after the code is written: it makes the developer   focus on the requirements before writing the code, a subtle but important difference.
+
+# 2. Run all tests and see if the new test fails
+- This validates that the test harness is working correctly, shows that the new test does not pass without requiring new code because the   required behavior already exists, and it rules out the possibility that the new test is flawed and will always pass. 
+- The new test should fail for the expected reason. This step increases the developer's confidence in the new test.
